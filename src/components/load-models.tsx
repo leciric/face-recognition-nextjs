@@ -321,22 +321,22 @@ export function LoadModels() {
         </>
       )}
 
-      <div className="relative">
+      <div className="relative flex w-full items-center justify-start">
         {imageToCompare && (
           <>
             <Image
               ref={imageRef}
               src={imageToCompare || ''}
-              width={1000}
-              height={1000}
+              width={2000}
+              height={562.5}
               alt="Selected image"
-              className="h-[1000px] w-[1000px]"
+              className="h-[562.5px] w-[844px]"
             ></Image>
             <canvas
               className="absolute left-0 top-0"
               ref={canvasRef}
-              width={1000}
-              height={1000}
+              width={844}
+              height={562.5}
             ></canvas>
           </>
         )}
