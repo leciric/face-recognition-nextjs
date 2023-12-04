@@ -282,7 +282,7 @@ export function LoadModels() {
                       alt={img.label}
                       width={10}
                       height={10}
-                      className="h-12 w-12 rounded-md"
+                      className="h-12 w-12 rounded-md object-cover"
                     ></Image>
 
                     <Button variant="destructive" size="icon" disabled>
